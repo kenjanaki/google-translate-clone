@@ -13,3 +13,6 @@ An ongoing effort at cloning Google Translate. Includes language auto-detection 
 - Backend: Flask
 - Interactivity: JavaScript
 - Libraries: pytesseract, deep_translator, PIL, pdf2image, poppler, io
+
+### Input:
+Input and output language textfields must contain three or lettered representation of the language
