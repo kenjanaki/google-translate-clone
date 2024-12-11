@@ -11,5 +11,5 @@ An ongoing effort at cloning Google Translate. Includes language auto-detection 
 - Software platform: Python  
 - Frontend: HTML, CSS
 - Backend: Flask
-- Interactivity: JS
+- Interactivity: JavaScript
 - Libraries: pytesseract, deep_translator, PIL, pdf2image, poppler, io
