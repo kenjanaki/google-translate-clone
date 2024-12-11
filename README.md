@@ -15,4 +15,5 @@ An ongoing effort at cloning Google Translate. Includes language auto-detection 
 - Libraries: pytesseract, deep_translator, PIL, pdf2image, poppler, io
 
 ### Input:
-Input and output language textfields must contain the first three or more letters of the language name
+- Input and output language entries must contain the first three or more letters of the language name.
+- There is a limit of 5000 characters in a single translation.
