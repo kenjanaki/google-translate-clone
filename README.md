@@ -1,5 +1,6 @@
 # google-translate-clone
 _Web-based translator application inspired by Google Translate_
+
 An ongoing effort at cloning Google Translate. Includes language auto-detection and OCR to upload a any kind of document to translate.
 
 ### Challenges:
