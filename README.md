@@ -12,4 +12,4 @@ An ongoing effort at cloning Google Translate. Includes language auto-detection 
 - Frontend: HTML, CSS
 - Backend: Flask
 - Interactivity: JS
-- Libraries: pytesseract, deep_translator, PIL, pdf2image
+- Libraries: pytesseract, deep_translator, PIL, pdf2image, poppler, io
