@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+        <style>
+            #inputText, #ocrFile, #submit {
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="category">
+            <button onclick="showInput('text')">Text</button>
+            <button onclick="showInput('file')">Document</button>
+        </div>
+
+        <div class="translations">
+            <div class="input">
+                <div class="options">
+                    <input type="text" id="inputLang" placeholder="Enter input language (e.g., auto)">
+                </div>
+                <textarea id="inputText" placeholder="Type here..." oninput="translateText()"></textarea>
+                <input type="file" id="ocrFile">                
+                <button id="submit" onclick="uploadFileForOCR()">Submit</button>
+            </div>
+
+            <div class="output">
+                <div class="options">
+                    <input type="text" id="outputLang" placeholder="Enter output language (e.g., hi)">
+                </div>
+                <textarea id="outputText" readonly>Translation</textarea>
+            </div>
+        </div>
+
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+    </body>
+</html>
