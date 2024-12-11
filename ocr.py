@@ -3,8 +3,8 @@ import pytesseract
 from PIL import Image
 import io
 
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-poppler_path = r"C:\Users\hiran\Downloads\poppler-24.08.0\Library\bin"
+pytesseract.pytesseract.tesseract_cmd = r"C:\PATH_TO_TESSERACT.EXE"
+poppler_path = r"C:\PATH_TO_poppler-24.08.0\Library\bin"
 
 def extract_text_from_pdf(file_stream, input_lang):
     text = ""
