@@ -15,4 +15,4 @@ An ongoing effort at cloning Google Translate. Includes language auto-detection 
 - Libraries: pytesseract, deep_translator, PIL, pdf2image, poppler, io
 
 ### Input:
-Input and output language textfields must contain three or lettered representation of the language
+Input and output language textfields must contain the first three or more letters of the language name
